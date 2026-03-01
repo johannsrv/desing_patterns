@@ -98,3 +98,31 @@ Builder =
 * Handles complex objects
 * Separates construction from representation
 * Cleaner than large constructors
+
+##### Prototype:
+
+The Prototype is a creational design pattern that allows you to create new objects by copying (cloning) an existing object instead of creating it from scratch.
+
+* It creates new objects by duplicating an existing instance.
+* The cloning process can be shallow or deep.
+* It avoids the cost of creating objects using complex initialization logic.
+
+🔹 When to use it?
+
+* When object creation is expensive or complex.
+* When you want to avoid building an object from scratch every time.
+* When you need many similar objects with slight differences.
+* When object configuration should be copied at runtime.
+
+🔹 Key Idea
+
+Instead of instantiating a class directly,  
+you clone an existing object and modify it if necessary.
+
+🧠 Even Simpler Explanation (for personal notes)
+
+Prototype =
+* Clone existing object
+* Avoid expensive creation
+* Copy configuration
+* Create similar objects easily
