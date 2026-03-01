@@ -63,3 +63,38 @@ Factory Method =
 * Subclass decides which object to create
 * Decouples creation from usage
 * Makes code easier to extend
+
+
+##### Builder:
+
+The Builder is a creational design pattern that separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+* It builds an object step by step.
+
+* It allows you to construct complex objects with many optional parameters.
+
+* The final object is usually created only after all required steps are completed.
+
+🔹 When to use it?
+
+* When an object has many optional or configurable parameters.
+
+* When object creation requires multiple steps.
+
+* When you want to avoid constructors with too many parameters (telescoping constructor problem).
+
+* When you want to create different representations of the same object.
+
+🔹 Key Idea
+
+The object is constructed step by step.
+The construction process is separated from the final object representation.
+
+🧠 Even Simpler Explanation (for personal notes)
+
+Builder =
+
+* Step-by-step construction
+* Handles complex objects
+* Separates construction from representation
+* Cleaner than large constructors
